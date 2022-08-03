@@ -3,7 +3,7 @@ const Discord = require(`discord.js`)
 const fs = require('node:fs');
 const path = require('node:path');
 const app = require('express')();
-const config = require('./.gitignore/config.json')
+const config = require('./config.json')
 const { joinVoiceChannel } = require('@discordjs/voice');
 const { QuickDB } = require("quick.db");
 
