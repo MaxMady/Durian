@@ -1,4 +1,4 @@
-const data = require('./database/mine.js')   
+const data = require('../database/mine.js')   
 
 function mine(ct) {
 let ar = [];
